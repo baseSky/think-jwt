@@ -51,7 +51,7 @@ return [
             ],
             'user' => [
                 'bind' => false,
-                'class'  => null,
+                'model'  => null,
             ]
         ]
     ],
@@ -79,7 +79,7 @@ return [
 
 ## user
 * `bind` 是否注入用户模型(中间件有效)
-* `class` 用户模型类文件 
+* `model` 用户模型类文件 
 
 ## manager
 * `prefix` 缓存前缀
